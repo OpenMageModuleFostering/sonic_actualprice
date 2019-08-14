@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sonic_ActualPrice</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allows store owner or administrator to keep the track of sales order against selling price and actual price of items.</summary>
+    <description>The module allows store owner or administrator to set Actual Price attribute value&#xD;
+from Prices Tab. Actual price is hidden for customers. Whenever customer places an order&#xD;
+an actual price is displayed in sale ordered items table before orignial price column.&#xD;
+Total actual price is calculated based on total number of items along with individual items ordered and their actual price.&#xD;
+The calculated total actual price is displayed in Order Total tab above Grand total value.&#xD;
+Total actual price is displayed in Orders Sale grid, adminstrator can export the grid to csv file which contains total actual price as well.</description>
+    <notes>First stable release.</notes>
+    <authors><author><name>Tanuj Pandey</name><user>TanujP</user><email>tanuj.d.pandey@gmail.com</email></author></authors>
+    <date>2016-10-01</date>
+    <time>07:05:48</time>
+    <contents><target name="magecommunity"><dir name="Sonic"><dir name="ActualPrice"><dir name="Block"><dir name="Adminhtml"><dir name="Order"><file name="Grid.php" hash="fd90c70121b88e4376cdf33dc36c24f5"/><dir name="Renderer"><file name="ActualPrice.php" hash="99d3d85f4af09b46b0c44a3ece38be9b"/></dir></dir><dir name="Sales"><dir name="Order"><file name="Totals.php" hash="44e2d19abe96b6207fa9bc312f9dca6a"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="8ec2b64996ff0efd00cc706e76e9615a"/></dir><dir name="Model"><file name="Observer.php" hash="296eb83ececfe2eecfbee3d3b2778324"/><dir name="Resource"><file name="Setup.php" hash="73f62c4288131f55286e7b12976c1cba"/></dir></dir><dir name="etc"><file name="config.xml" hash="c3aad4f4337cfddac43326324d8ccb9e"/></dir><dir name="sql"><dir name="actualpriceattribute_setup"><file name="mysql4-install-0.1.0.php" hash="90d4a3b0dacf43329cd143a1b0dc3efb"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="actualprice.xml" hash="8830f823fb5f421261e28b7a1977a6fd"/></dir><dir name="template"><dir name="sonic"><dir name="actualprice"><dir name="sales"><dir name="order"><dir name="view"><dir name="items"><dir name="renderer"><file name="default.phtml" hash="1d56c6eb6d6014dc8983e300e0f84068"/></dir></dir><file name="items.phtml" hash="9cbc0a68287cb85ba2bd5d4b78514f72"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sonic_ActualPrice.xml" hash="9a321091df9b3303abf2341a748aefd0"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
