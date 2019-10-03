@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Sonic_ActualPrice",
+    "name": "OpenMageModuleFostering\/Sonic_ActualPrice",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Allows store owner or administrator to keep the track of sales order against selling price and actual price of items.",
     "authors": [
-    {
-        "name": "Tanuj Pandey",
-        "email": "tanuj.d.pandey@gmail.com"
-    }
-],
+        {
+            "name": "Tanuj Pandey",
+            "email": "tanuj.d.pandey@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
